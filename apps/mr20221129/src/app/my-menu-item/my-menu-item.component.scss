@@ -1,0 +1,14 @@
+button {
+  padding: 0.5rem 2rem;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid darkgoldenrod;
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: orange;
+    background-color: white;
+    cursor: pointer;
+  }
+}

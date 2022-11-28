@@ -1,0 +1,15 @@
+<header>Monthly Recap November</header>
+<main>
+  <monthly-recap-title title="I'm a standalone component"></monthly-recap-title>
+  <monthly-recap-my-menu>
+    <monthly-recap-my-menu-item (trigger)="doSomething()">foo</monthly-recap-my-menu-item>
+    <monthly-recap-my-menu-item (trigger)="doSomething()">bar</monthly-recap-my-menu-item>
+    <monthly-recap-my-menu-item (trigger)="doSomething()" disabled>baz</monthly-recap-my-menu-item>
+  </monthly-recap-my-menu>
+  <ul>
+    <li><a [routerLink]="['/hello']">Hello</a></li>
+    <li><a [routerLink]="['/bye']">ByeBye</a></li>
+  </ul>
+  <router-outlet></router-outlet>
+  <img [ngSrc]="'./assets/ordina-logo.jpg'" width="537" height="137" />
+</main>
